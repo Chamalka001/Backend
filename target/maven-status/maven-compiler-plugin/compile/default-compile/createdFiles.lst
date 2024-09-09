@@ -1,0 +1,17 @@
+com\mycompany\icbtwebservice\resources\User.class
+com\mycompany\icbtwebservice\resources\Customer.class
+com\mycompany\icbtwebservice\resources\Utils.class
+com\mycompany\icbtwebservice\resources\StaffResource.class
+com\mycompany\icbtwebservice\resources\Reservation.class
+com\mycompany\icbtwebservice\resources\UserLogin.class
+com\mycompany\icbtwebservice\resources\ReservationResource.class
+com\mycompany\icbtwebservice\resources\StudentResource.class
+com\mycompany\icbtwebservice\JakartaRestConfiguration.class
+com\mycompany\icbtwebservice\resources\Staff.class
+com\mycompany\icbtwebservice\resources\QueryResource.class
+com\mycompany\icbtwebservice\resources\CustomerResource.class
+com\mycompany\icbtwebservice\resources\JakartaEE9Resource.class
+com\mycompany\icbtwebservice\resources\Student.class
+com\mycompany\icbtwebservice\resources\DBUtils.class
+com\mycompany\icbtwebservice\resources\MyConnection.class
+com\mycompany\icbtwebservice\resources\Query.class
