@@ -13,6 +13,7 @@ public class JakartaEE9Resource {
     
     @GET
     public Response ping(){
+        System.out.println("test");
         System.out.println("Hello");
         return Response
                 .ok("ping Jakarta EE")
