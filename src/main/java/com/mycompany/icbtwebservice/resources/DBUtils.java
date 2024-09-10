@@ -65,4 +65,12 @@ public interface DBUtils {
     
     public boolean SuserLogin(String email, String s_password);
     
+    
+    public List<Payment> getPayments();
+    
+    public Payment getPayment(int id);
+    
+    public boolean addPayment(Payment st);
+    
+    
 }

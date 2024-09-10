@@ -560,6 +560,72 @@ public class Utils implements DBUtils{
         
         return false;
     }
+
+    @Override
+    public List<Payment> getPayments() {
+        List<Payment> Payments = new ArrayList<>();
+        try {
+            Connection conn = MyConnection.getConnection();
+            Statement stmt = conn.createStatement();
+            ResultSet rs = stmt.executeQuery("SELECT * FROM payment");
+
+            while (rs.next()) {
+                Payments.add(new Payment(rs.getInt("id"), rs.getString("c_name"),rs.getString("amount"),rs.getString("card_number"), rs.getString("exp_date"),rs.getString("cvv")));
+            }
+        } catch (SQLException e) {
+            return null;
+        }
+
+        return Payments;
+    }
+
+    @Override
+    public Payment getPayment(int id) {
+        Payment payment = null;
+        try {
+            
+            Connection conn = MyConnection.getConnection();
+            Statement stmt = conn.createStatement();
+            ResultSet rs = stmt.executeQuery("SELECT * FROM payment WHERE id=" + id);
+            if (rs.next()) {
+                payment = new Payment(rs.getInt("id"), rs.getString("c_name"),rs.getString("amount"), rs.getString("card_number"),rs.getString("exp_date"), rs.getString("cvv"));
+            }
+        } catch (SQLException e) {
+            return null;
+        }
+
+        return payment;
+    }
+
+    @Override
+    public boolean addPayment(Payment st) {
+        try {
+            
+            String query = "INSERT INTO payment (c_name, amount, card_number, exp_date, cvv) VALUES (?, ?, ?, ?, ?)";
+            
+            Connection con = MyConnection.getConnection();
+            PreparedStatement pst = con.prepareStatement(query);
+            pst.setString(1, st.getC_name());
+            pst.setString(2, st.getAmount());
+            pst.setString(3, st.getCard_number());
+            pst.setString(4, st.getExp_date());
+            pst.setString(5, st.getCvv());
+            
+            int rowAffected = pst.executeUpdate();
+            
+            pst.close();
+            con.close();
+            
+            return rowAffected == 1;
+            
+            
+        } catch (Exception e) {
+            
+            System.out.println("ADD PAYMENT ERROR: " + e);
+            return false;
+            
+        }
+    }
     
 
     
