@@ -1,8 +1,10 @@
 C:\Users\Dinindu\Documents\NetBeansProjects\Backend\src\main\java\com\mycompany\icbtwebservice\resources\Staff.java
 C:\Users\Dinindu\Documents\NetBeansProjects\Backend\src\main\java\com\mycompany\icbtwebservice\resources\UserLogin.java
 C:\Users\Dinindu\Documents\NetBeansProjects\Backend\src\main\java\com\mycompany\icbtwebservice\resources\Utils.java
+C:\Users\Dinindu\Documents\NetBeansProjects\Backend\src\main\java\com\mycompany\icbtwebservice\resources\StaffUser.java
 C:\Users\Dinindu\Documents\NetBeansProjects\Backend\src\main\java\com\mycompany\icbtwebservice\resources\Student.java
 C:\Users\Dinindu\Documents\NetBeansProjects\Backend\src\main\java\com\mycompany\icbtwebservice\resources\StudentResource.java
+C:\Users\Dinindu\Documents\NetBeansProjects\Backend\src\main\java\com\mycompany\icbtwebservice\resources\Payment.java
 C:\Users\Dinindu\Documents\NetBeansProjects\Backend\src\main\java\com\mycompany\icbtwebservice\resources\StaffResource.java
 C:\Users\Dinindu\Documents\NetBeansProjects\Backend\src\main\java\com\mycompany\icbtwebservice\resources\Customer.java
 C:\Users\Dinindu\Documents\NetBeansProjects\Backend\src\main\java\com\mycompany\icbtwebservice\resources\CustomerResource.java
@@ -15,3 +17,5 @@ C:\Users\Dinindu\Documents\NetBeansProjects\Backend\src\main\java\com\mycompany\
 C:\Users\Dinindu\Documents\NetBeansProjects\Backend\src\main\java\com\mycompany\icbtwebservice\resources\QueryResource.java
 C:\Users\Dinindu\Documents\NetBeansProjects\Backend\src\main\java\com\mycompany\icbtwebservice\resources\JakartaEE9Resource.java
 C:\Users\Dinindu\Documents\NetBeansProjects\Backend\src\main\java\com\mycompany\icbtwebservice\resources\ReservationResource.java
+C:\Users\Dinindu\Documents\NetBeansProjects\Backend\src\main\java\com\mycompany\icbtwebservice\resources\StaffUserLogin.java
+C:\Users\Dinindu\Documents\NetBeansProjects\Backend\src\main\java\com\mycompany\icbtwebservice\resources\PaymentResource.java
